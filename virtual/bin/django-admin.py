@@ -1,4 +1,4 @@
-#!/home/wecode/MS-Python-Pre-work/Django/KidProgramming/virtual/bin/python
+#!/home/wecode/MS-Python-Pre-work/Django/JuniorDevelopper/virtual/bin/python
 from django.core import management
 
 if __name__ == "__main__":
