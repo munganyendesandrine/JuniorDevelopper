@@ -1,0 +1,100 @@
+{%extends 'all-content/base.html'%}
+
+<h1 text-align:center> Welcome </h1>
+{% load bootstrap3 %}
+{% load static%}
+
+
+<!DOCTYPE html>
+<html>
+<head>
+
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+</head>
+<body>
+    {% include "navbar.html" %}
+
+    {% block content %} 
+    <div class="container">
+
+        <button class="button button4">View all pages</button>
+        
+        <hr>
+        <h1 style="color:purple;" class="page-title">Monday: Computer</h1>
+        <br>
+        <div class="parts">
+            <img src="https://image.shutterstock.com/image-vector/illustration-computer-monitor-holding-cpu-260nw-82095055.jpg" height="200" width="200">
+            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQB8U9zMp2Eppj1h7zFrD0bziIQFnWfcFqSo-t8j891nDT-dF3t" height="200" width="200">
+        </div>
+        <br>
+        <h2>
+        <span style="color:blueviolet;" >Computer Parts</span>
+        </h2>
+        <br>
+        <h3>
+        <span style="color:darkslategrey;" >Human Body Parts like Computer parts</span>
+        </h3>
+        <br>
+        <p>
+        <span>You can see Human body parts as Computer parts</span>
+        </p>
+        <div style="background-color:lightskyblue;" class="jumbotron">
+            <!-- <div id="div1" class="fa fa-heart"></div>    -->
+            <div class="center">
+                <div class="row">
+                    <div class="column">
+                        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQN0gqjYX3Co3Y_fvv6SDb4BVUDYdhNZzcvEZrXsSvwrRKRCTm82w" height="199" width="200"><br> <p style="color:blueviolet;padding-left:80px;">Monitor</p>
+                    </div>
+                    
+                    <div class="column">
+                        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR7WU20-eOydzG3s-G8zPHV2iOZp-w1VkCsPGMZpuT4wplgE4p4" height="200" width="200"><br> <p style="color:blueviolet;padding-left:80px;">Face</p>
+                    </div>
+                </div>
+
+                <div class="row1">
+                        <div class="column1">
+                            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ8b5UvunLu3Urfbef7CXABk8uGpPzZIM4eq93rnp4c0GNYuZBuNQ" height="200" width="200"><br> <p style="color:blueviolet;padding-left:80px;">Keyboard</p>
+                        </div>
+                        
+                        <div class="column1">
+                            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcShnb1BR2Y60cCXvoCK9zOJG7fjAP1hvSbyB-vBZMX9mkbKEEDA" height="199" width="199"><br> <p style="color:blueviolet;padding-left:80px;">Hands</p>
+                        </div>
+                </div>
+                <div class="row3">
+                        <div class="column3">
+                            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQHdE3lBiCE1kPrpoFRZmdl4aqu0hB6ySHppNDBs9qNWCPKAqMwIA" height="200" width="200"><br> <p style="color:blueviolet;padding-left:80px;">CPU</p>
+                        </div>
+                        
+                        <div class="column3">
+                            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ802heIj9Mj43o5dJRNqMxSY5P92-QWfeg0M06tK6b4GcIhP9pQA" height="199" width="199"><br> <p style="color:blueviolet;padding-left:80px;">Heart</p>
+                        </div>
+                </div>
+                <div class="row2">
+                        <div class="column2">
+                            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTyrHg3WyXKpnaHAU_9jqUmUmd4JWI41quL8_DjMdAQXE8WWj2M" height="200" width="200"><br> <p style="color:blueviolet;padding-left:80px;">Mouse</p>
+                        </div>
+                        
+                        <div class="column2">
+                            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcShnb1BR2Y60cCXvoCK9zOJG7fjAP1hvSbyB-vBZMX9mkbKEEDA" height="199" width="199"><br> <p style="color:blueviolet;padding-left:80px;">Hands</p>
+                        </div>
+                </div>
+                
+            </div>
+        </div>
+    </div>
+    {%endblock%}
+    
+
+    {% block scripts %}
+
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+
+     {% bootstrap_javascript %}
+    {% endblock %}
+</body>
+</html>

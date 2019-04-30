@@ -1,0 +1,63 @@
+.bar a{
+  background-color:white;
+}
+.navbar{
+    background-color:white; 
+}
+.parts img{
+  padding-left: 10px;
+}
+.leftimg h4 {
+ float:left;
+}
+.column {
+    float: left;
+    width: 27.33%;
+    padding: 5px;
+}
+.row::after {
+    content: "";
+    clear: both;
+    display: table;
+}
+.column3 {
+    float: left;
+    width: 27.33%;
+    padding: 5px;
+}
+.row3::after {
+    content: "";
+    clear: both;
+    display: table;
+}
+.column1 {
+    float: left;
+    width: 27.33%;
+    padding: 5px;
+}
+.row1::after {
+    content: "";
+    clear: both;
+    display: table;
+}
+.column2 {
+    float: left;
+    width: 27.33%;
+    padding: 5px;
+}
+.row2::after {
+    content: "";
+    clear: both;
+    display: table;
+}
+.center{
+/* margin-left:200px;   */
+  background-blend-mode: lighten;
+  background-repeat: no-repeat, repeat;
+  background-image: url("img_tree.gif"), url("paper.gif");
+  background-blend-mode: lighten;
+}
+.jumbotron{
+    background-blend-mode: lighten;
+    background-repeat: no-repeat, repeat;
+}
