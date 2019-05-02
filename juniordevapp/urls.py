@@ -7,6 +7,7 @@ urlpatterns=[
     url('^lesson2/',views.lesson2,name ='lesson2'),
     url('^lesson3/',views.lesson3,name ='lesson3'),
     url('^lesson4/',views.lesson4,name ='lesson4'),
+    url('^lesson5/',views.lesson5,name ='lesson5'),
 
    
 ]

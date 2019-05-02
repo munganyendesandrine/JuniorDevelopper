@@ -20,3 +20,8 @@ def lesson3(request):
 def lesson4(request):
      return render(request,"lesson4.html")
 
+
+def lesson5(request):
+     return render(request,"lesson5.html")
+
+
