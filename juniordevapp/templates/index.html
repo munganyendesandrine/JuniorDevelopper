@@ -22,10 +22,9 @@
     {% block content %} 
     <div class="container">
 
-        <button class="button button4">View all pages</button>
         
         <hr>
-        <h1 style="color:purple;" class="page-title">Monday: Computer</h1>
+        <h1 style="color:purple;" class="page-title">Monday:Lesson 1 > Computer</h1>
         <br>
         <div class="parts">
             <img src="https://image.shutterstock.com/image-vector/illustration-computer-monitor-holding-cpu-260nw-82095055.jpg" height="200" width="200">
@@ -87,6 +86,15 @@
             </div>
         </div>
     </div>
+    <center><a href="#"><i style="color:goldenrod;" class="fa fa-bread-slice"></i> Quiz:Computer parts</a> </center>
+    <hr>
+    <center style="background-color:lightskyblue; ">
+        <a href="{%url 'index'%}" class="previous round">Previous</a>
+        <a sytle="padding:50px;" href="{%url 'lesson1'%}" class="next round">Next</a>
+    </center>
+
+
+
     {%endblock%}
     
 

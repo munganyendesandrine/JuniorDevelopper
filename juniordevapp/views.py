@@ -1,8 +1,15 @@
 from django.shortcuts import render,redirect
-from django.http  import HttpResponse
+from django.http  import HttpResponse,Http404
 
-def content(request):
-    return render(request, 'content.html')
+def index(request):
+    return render(request,"index.html")
+    
 
 def content_of_day(request):
-    return render(request, 'content.html')
+
+    # content = content.todays_content () 
+    return render(request, 'all-content/today-content.html')
+
+def lesson1(request):
+     return render(request,"lesson1.html")
+
