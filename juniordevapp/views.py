@@ -10,6 +10,13 @@ def content_of_day(request):
     # content = content.todays_content () 
     return render(request, 'all-content/today-content.html')
 
-def lesson1(request):
-     return render(request,"lesson1.html")
+def lesson2(request):
+     return render(request,"lesson2.html")
+
+def lesson3(request):
+     return render(request,"lesson3.html")
+
+
+def lesson4(request):
+     return render(request,"lesson4.html")
 

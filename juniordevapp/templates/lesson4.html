@@ -1,0 +1,86 @@
+{%extends 'all-content/base.html'%}
+
+<h1 text-align:center> Welcome </h1>
+{% load bootstrap3 %}
+{% load static%}
+
+
+<!DOCTYPE html>
+<html>
+<head>
+
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+</head>
+<body>
+    {% include "navbar.html" %}
+
+    {% block content %} 
+    <div class="container">
+
+        
+        <hr>
+        <h1 style="color:purple;" class="page-title">Thursday:Lesson 4 > Calculations</h1>
+        <br>
+        <div class="parts">
+            <img src="https://image.shutterstock.com/image-vector/illustration-computer-monitor-holding-cpu-260nw-82095055.jpg" height="200" width="200">
+            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRMFDsilme9-XC6buZ8qmOkdrNVFw6Br_hR7mdG4DOyPIjTZjCX" height="200" width="200">
+        </div>
+        <br>
+        <h2>
+        <span style="color:blueviolet;" >Calculations Signs</span>
+        </h2>
+        <br>
+        <h3>
+        <span style="color:darkslategrey;" >Addition</span> >
+        <span style="color:darkslategrey;" >Substration</span> >
+        <span style="color:darkslategrey;" >Multiplication</span> >
+        <span style="color:darkslategrey;" >Division</span> 
+        </h3>
+        <br>
+        <p>
+        <span style="color:darkslategrey;" >Calculations Signs in Computer</span>
+        </p>
+        <div style="background-color:lightskyblue;" class="jumbotron">
+            <div class="row2">
+                <div class="column2">
+                    <img src="data:image/png;base64,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" height="199" width="199"><br> <p style="color:blueviolet;padding-left:50px; padding-right:50px;;">Addition</p>
+                </div>
+                <div class="column2">
+                        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcShnb1BR2Y60cCXvoCK9zOJG7fjAP1hvSbyB-vBZMX9mkbKEEDA" height="199" width="199"><br> <p style="color:blueviolet;padding-left:50px; padding-right:50px;;">Substraction</p>
+                </div>
+                <div class="column2">
+                        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcShnb1BR2Y60cCXvoCK9zOJG7fjAP1hvSbyB-vBZMX9mkbKEEDA" height="199" width="199"><br> <p style="color:blueviolet;padding-left:50px; padding-right:50px;;">Multiplication</p>
+                </div>
+                <div class="column2">
+                    <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcShnb1BR2Y60cCXvoCK9zOJG7fjAP1hvSbyB-vBZMX9mkbKEEDA" height="199" width="199"><br> <p style="color:blueviolet;padding-left:50px; padding-right:50px;">Division</p>
+                </div>
+        </div>
+           
+        </div>
+        <p><a  href="https://repl.it/languages/python3">WRITE YOUR CODE HERE</a></p> 
+    </div>
+    <center><a href="#"><i style="color:goldenrod;" class="fa fa-bread-slice"></i> Quiz Lesson 4: Calculations</a> </center>
+    <hr>
+    <center style="background-color:lightskyblue; ">
+        <a href="{%url 'lesson3'%}" class="previous round">Previous</a>
+        <a sytle="padding:50px;" href="#" class="next round">Next</a>
+    </center>
+
+
+
+    {%endblock%}
+    
+
+    {% block scripts %}
+
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+
+     {% bootstrap_javascript %}
+    {% endblock %}
+</body>
+</html>
