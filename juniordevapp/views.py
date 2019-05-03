@@ -24,4 +24,10 @@ def lesson4(request):
 def lesson5(request):
      return render(request,"lesson5.html")
 
+# def viewallpages(request):
+#      return render(request,"viewallpages.html")
+
+def quizlesson2(request):
+     return render(request,"quizlesson2.html")
+
 

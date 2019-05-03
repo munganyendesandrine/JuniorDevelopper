@@ -8,6 +8,8 @@ urlpatterns=[
     url('^lesson3/',views.lesson3,name ='lesson3'),
     url('^lesson4/',views.lesson4,name ='lesson4'),
     url('^lesson5/',views.lesson5,name ='lesson5'),
+    # url('^viewallpages/',views.viewallpages,name ='viewallpages'),
+    url('^quizlesson2/',views.quizlesson2,name ='quizlesson2'),
 
    
 ]
