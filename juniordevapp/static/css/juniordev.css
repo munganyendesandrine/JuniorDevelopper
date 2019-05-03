@@ -1,0 +1,137 @@
+/* h1
+{
+  color: green;
+  font-family:serif;
+}
+
+
+ body{
+  background-color: beige;
+} 
+main{
+  display: flex;
+  float: left;
+  border-radius:10px;
+  border:10px solid  #0EB4FC;
+  padding:5px;
+  background-color:rgba(0, 0, 255, 0.3);
+   
+  margin-left: 10px;
+  margin-right: 10px;
+}
+.marquee { 
+  overflow: hidden;
+  position: relative;
+  animation: MarqueeLeft linear 18s infinite;
+}
+.begin{
+  cursor: pointer;
+}
+.myvideo{
+
+  border-color: #0EB4FC;
+  border-style: solid;
+  border-width: 5px;
+  margin-right:276px;
+
+} */
+.container{
+  color:darkcyan;
+  background-color:lightblue;
+
+}   
+h1 {
+  text-align:center;
+}
+p {
+  text-align:center;
+}
+.questions{
+  margin-left:380px;
+  list-style: none;
+}
+h3 {
+  text-align:center;
+}
+.radio1{
+  text-align:center;
+}
+.radio2{
+  margin-left:100px;
+}
+.radio3{
+  margin-left:120px;
+}
+.button{
+  text-align:center;
+  color:blue;
+}
+.refresh{
+  text-align: center;
+}
+.final{
+  display:none;
+  color:white;
+  text-align:center;
+}
+h1
+{
+  color: green;
+  font-family:serif;
+}
+
+/* .review{
+
+  border-color: #0EB4FC;
+  border-style: solid;
+  border-width: 5px;
+  margin-right:276px;
+
+} */
+.jumbotron{
+  background-color: white;
+}
+.well{
+  background-color: white;
+  
+}
+
+.column {
+  float: left;
+  width: 27.33%;
+  padding: 5px;
+}
+.row::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+#equivalent {
+  font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
+  border-collapse: collapse;
+  width: 100%;
+}
+
+#equivalent td, #equivalent th {
+  border: 1px solid #ddd;
+  padding: 8px;
+}
+
+#equivalent tr:nth-child(even){background-color: #f2f2f2;}
+
+#equivalent tr:hover {background-color: #ddd;}
+
+#equivalent th {
+  padding-top: 12px;
+  padding-bottom: 12px;
+  text-align: left;
+  background-color: #4CAF50;
+  color: white;
+}
+table{
+  background-color: white;
+}
+canvas {
+  border:1px solid red;
+
+}
